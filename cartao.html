@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cartão de Visita Digital</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+
+        .card {
+            background-color: #a12747;
+            width: 300px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 50px auto;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .top-section {
+            background-color: #ffffff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .bottom-section {
+            background-color: #a12747;
+            padding: 20px;
+            text-align: left;
+            position: relative;
+        }
+
+        .card img.banner-pic {
+            width: 100%;
+            /* Defina a largura total */
+            margin-bottom: 10px;
+        }
+
+        .card img.profile-pic {
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+            margin-bottom: 10px;
+            position: relative;
+            z-index: 1;
+            /* Garante que a imagem de perfil fique acima da imagem do banner */
+        }
+
+
+
+
+        .card h1 {
+            font-size: 24px;
+            color: #a12747;
+            margin-bottom: 10px;
+        }
+
+        .card p {
+            font-size: 16px;
+            color: #a12747;
+            margin-bottom: 5px;
+        }
+
+        .contact-info p {
+            margin-bottom: 5px;
+            display: flex;
+            align-items: center;
+        }
+
+        .contact-info p a {
+            color: #ffffff;
+            text-decoration: none;
+            margin-left: 5px;
+        }
+
+        .whatsapp-icon,
+        .instagram-icon,
+        .gmail-icon {
+            width: 24px;
+            height: 24px;
+            vertical-align: middle;
+        }
+
+        .bottom-text {
+            text-align: center;
+            color: #ffffff;
+            font-size: 14px;
+            margin-top: 40px;
+            position: relative;
+            bottom: 0px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card">
+        <div class="top-section">
+            <img src="defagro-logo.png" alt="Banner Image" class="banner-pic">
+            <img src="Defagro Vendas.png" alt="Sua Foto" class="profile-pic">
+            <h1>Lorenzo Evangelista</h1>
+            <p><strong>Vendedor</strong></p>
+        </div>
+        <div class="bottom-section">
+            <div class="contact-info">
+                <p><img src="gmail.png" alt="" class="gmail-icon"><a
+                        href="mailto:vendas.serra@defagro.com.br">vendas.serra@defagro.com.br</a></p>
+                <p><img src="whatsapp.png" alt="" class="whatsapp-icon"><a
+                        href="https://api.whatsapp.com/send?phone=5527999826416">27 99982-6416</a></p>
+                <p><img src="instagram.png" alt="" class="instagram-icon"><a
+                        href="https://www.instagram.com/lojadefagro?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">INSTAGRAM</a>
+                </p>
+            </div>
+            <p class="bottom-text" style="color: white;">CLIQUE NOS ÍCONES</p>
+        </div>
+    </div>
+</body>
+
+</html>
